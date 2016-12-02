@@ -1,0 +1,264 @@
+
+body{
+    background-image: url("Steel-Diamond-Plate-Texture.jpg");
+    display: block;
+    background-size:contain;
+}
+h1.blood{
+  color: yellow;
+}
+header{
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+h3{
+  font-size: 39px;
+  text-align: center;
+  line-height: 70px;
+}
+
+p.blood{
+  color: #B72A2A;
+
+
+
+
+
+}
+h2.blood{
+  text-align: center;
+  font-size: 44px;
+}
+p{
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 36px;
+}
+textarea {
+  outline-color: yellow;
+  outline-style: double;
+}
+
+#input{
+    font-family: sans-serif;
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
+    font-size: 25px;
+    background-color: black;
+    color: red;
+
+
+}
+
+#submit{
+    font-size: 35px;
+    width: 20px;
+    height: 35px;
+    float: right;
+    line-height: 35px;
+    color: yellow;
+    background-color: black;
+    border-radius: 200px;
+    cursor: pointer;
+    margin: 15px auto;
+
+
+
+}
+
+#letterBank div:hover{
+    background-color: red;
+}
+#letterBank div{
+    float: left;
+    width: 50px;
+    height: 58px;
+    margin: 0px 10px 10px 0px;
+    cursor: pointer;
+    background-color: black;
+outline-style: groove;
+
+
+}
+  #hangman{
+         display: block;
+         margin: 50px auto 0 auto;
+         border: 15px solid black;
+
+
+     }
+
+     #wordWrap{
+         display: inline-block;
+         width: 830px;
+         margin: 0 auto;
+         padding: 20px;
+
+}
+
+
+  #letterBank{
+             width: 540px;
+             height: 125px;
+             margin: 20px auto;
+             font-size: 50px;
+             line-height: 60px;
+             text-align: center;
+             -webkit-user-select: none;
+             -moz-user-select: none;
+             -ms-user-select: none;
+
+
+
+
+
+
+
+}
+               #restriction {
+                   display: block;
+                   margin: -20px auto;
+                   font-family: sans-serif;
+                   font-size: 15px;
+                   color: yellow;
+                   text-align: center;
+
+
+}
+
+#submit{
+    font-size: 25.5px;
+    width: 179px;
+    height: 30px;
+    line-height: 30px;
+
+
+}
+
+#input{
+    font-size: 20px;
+
+}
+
+#multiText p{
+    font-size: 37px;
+
+}
+
+#gamePage{
+    display: none;
+    text-align: center;
+
+    }
+
+    #multiPage{
+        display: none;
+        height: 490px;
+        width: 845px;
+    }
+
+
+
+        #characterCount{
+            width: 580px;
+            height: 35px;
+            margin: 21px auto 0 auto;
+            font-size: 25px;
+            color: yellow;
+
+
+
+        }
+        #charContain{
+            margin: 0;
+            float: left;
+
+
+
+
+        }
+
+        .blood {
+               color:yellow;
+               text-shadow:
+               4px 4px 1px #300000,
+               4px 6px 1px #400000,
+               4px 8px 1px #500000,
+               4px 10px 1px #600000,
+               4px 12px 1px #700000,
+               4px 14px 1px #800000,
+               4px 16px 1px #900000,
+               4px 18px 1px #A00000,
+               4px 20px 1px #B00000,
+               4px 22px 1px #C00000,
+               4px 24px 1px #D00000,
+               4px 26px 1px #E00000,
+               4px 28px 1px #F00000,
+               4px 30px 1px #FA0000,
+               4px 32px 1px #FB0000,
+               4px 34px 1px #FC0000,
+               4px 36px 1px #FD0000,
+               4px 38px 1px #FE0000,
+               4px 40px 2px #FF0000;
+        }
+
+
+#letter1, #letter2, #letter3, #letter4, #letter5, #letter6, #letter7, #letter8, #letter9, #letter10, #letter11, #letter12, #letter13, #letter14, #letter15, #letter16, #letter17, #letter18, #letter19, #letter20, #letter21, #letter22, #letter23, #letter24, #letter25, #letter26, #letter27, #letter28, #letter29, #letter30, #letter31, #letter32, #letter33, #letter34, #letter35, #letter36, #letter37, #letter38, #letter39, #letter40, #letter41, #letter42, #letter43, #letter44, #letter45, #letter46, #letter47, #letter48, #letter49, #letter50, #letter51, #letter52, #letter53, #letter54, #letter55, #letter56, #letter57, #letter58, #letter59, #letter60, #letter61, #letter62, #letter63, #letter64, #letter65, #letter66, #letter67, #letter68, #letter69, #letter70, #letter71, #letter72, #letter73, #letter74, #letter75, #letter76, #letter77, #letter78, #letter79, #letter80, #letter81, #letter82, #letter83, #letter84, #letter85, #letter86, #letter87, #letter88, #letter89, #letter90, #letter91, #letter92, #letter93, #letter94, #letter95, #letter96, #letter97, #letter98, #letter99, #letter100{
+        font-family: Century Gothic;
+        width: 50px;
+        height: 60px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 60px;
+        line-height: 60px;
+        color: yellow;
+        background-color: red;
+
+
+    }
+    #underline1, #underline2, #underline3, #underline4, #underline5, #underline6, #underline7, #underline8, #underline9, #underline10, #underline11, #underline12, #underline13, #underline14, #underline15, #underline16, #underline17, #underline18, #underline19, #underline20, #underline21, #underline22, #underline23, #underline24, #underline25, #underline26, #underline27, #underline28, #underline29, #underline30, #underline31, #underline32, #underline33, #underline34, #underline35, #underline36, #underline37, #underline38, #underline39, #underline40, #underline41, #underline42, #underline43, #underline44, #underline45, #underline46, #underline47, #underline48, #underline49, #underline50, #underline51, #underline52, #underline53, #underline54, #underline55, #underline56, #underline57, #underline58, #underline59, #underline60, #underline61, #underline62, #underline63, #underline64, #underline65, #underline66, #underline67, #underline68, #underline69, #underline70, #underline71, #underline72, #underline73, #underline74, #underline75, #underline76, #underline77, #underline78, #underline79, #underline80, #underline81, #underline82, #underline83, #underline84, #underline85, #underline86, #underline87, #underline88, #underline89, #underline90, #underline91, #underline92, #underline93, #underline94, #underline95, #underline96, #underline97, #underline98, #underline99, #underline100{
+        display: none;
+        float: left;
+        width: 50px;
+        height: 60px;
+        margin-right: 5px;
+
+
+    }
+
+ #pic{
+  position: relative;
+  text-align: center;
+}
+
+#Rick img{
+  max-width: 500px;
+  height: 185px;
+  text-align: center;
+  display: block;
+  margin: 50px auto 0 auto;
+  position: relative;
+}
+#negan img{
+position: relative;
+left: 790px;
+width: 500px;
+top: -851px;
+height: 330px;
+}
+#smile img{
+position: relative;
+
+ height: 330px;
+  left: -9px;
+  width: 500px;
+
+  top: -1185px;
+
+}
+      }
