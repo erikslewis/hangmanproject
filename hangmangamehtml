@@ -22,10 +22,10 @@
 
 
         <div id="wordInput">
-            <div id="multiText">
+            <div  id="multiText">
               <h2 class="blood">Lucille's Instructions</h2>
               <div id="Rick">
-              <img  src= "you.gif"alt="">
+              <img  src= "IMG/you.gif"alt="">
 
               </div>
                 <p class="blood">Player One Look Away While Player Two Types.</p>
@@ -42,7 +42,7 @@
                 <p class="blood" id="charContain">
                     <span id="charcount">0</span>/100 characters
                 </p>
-                <div class="blood" id="submit" onclick="readText()" >Lucille Is Thirsty</div>
+                <div  class="blood" id="submit" onclick="readText()" >Lucille Is Thirsty</div>
 </div>
 </div>
 
@@ -349,22 +349,36 @@
                 <div id="letter100"></div>
             </div>
         </div>
+        <div id="inline">
+          <div id="smile">
+          <img  src="IMG/smile.gif" alt="">
+          </div>
         <canvas id="hangman"   width= "300px"; height= "300px";></canvas>
-        <div id="results"></div>
-        <div class="blood" id="letterBank">
-                <div  id="a" value="A" onclick="guessLetter()">A</div><div id="b" value="B" onclick="guessLetter()">B</div><div id="c" value="C" onclick="guessLetter()">C</div><div id="d" value="D" onclick="guessLetter()">D</div><div id="e" value="E" onclick="guessLetter()">E</div><div id="f" value="F" onclick="guessLetter()">F</div><div id="g" value="G" onclick="guessLetter()">G</div><div id="h" value="H" onclick="guessLetter()">H</div><div id="i" value="I" onclick="guessLetter()">I</div><div id="j" value="J" onclick="guessLetter()">J</div><div id="k" value="K" onclick="guessLetter()">K</div><div id="l" value="L" onclick="guessLetter()">L</div><div id="m" value="M" onclick="guessLetter()">M</div><div id="n" value="N" onclick="guessLetter()">N</div><div id="o" value="O" onclick="guessLetter()">O</div><div id="p" value="P" onclick="guessLetter()">P</div><div id="q" value="Q" onclick="guessLetter()">Q</div><div id="r" value="R" onclick="guessLetter()">R</div><div id="s" value="S" onclick="guessLetter()">S</div><div id="t" value="T" onclick="guessLetter()">T</div><div id="u" value="U" onclick="guessLetter()">U</div><div id="v" value="V" onclick="guessLetter()">V</div><div id="w" value="W" onclick="guessLetter()">W</div><div id="x" value="X" onclick="guessLetter()">X</div><div id="y" value="Y" onclick="guessLetter()">Y</div><div id="z" value="Z" onclick="guessLetter()">Z</div>
-        </div>
-<div id="pic">
-<img  src="good.gif" alt="">
-
-    </div>
-    <div id="negan">
-    <img  src="negan.gif" alt="">
-
-        </div>
-        <div id="smile">
-        <img  src="smile.gif" alt="">
+        <div id="negan">
+        <img  src="IMG/negan.gif" alt="">
 
             </div>
+            
+          </div>
+        <div id="results"></div>
+        <div class="blood" id="letterBank">
+                <div  id="a" value="A" onclick="guessLetter()">A</div><div id="b" value="B" onclick="guessLetter()">B</div><div id="c" value="C" onclick="guessLetter()">C</div><div id="d" value="D" onclick="guessLetter()">D</div><div id="e" value="E" onclick="guessLetter()">E</div><div id="f" value="F" onclick="guessLetter()">F</div><div id="g" value="G" onclick="guessLetter()">G</div><div id="h" value="H" onclick="guessLetter()">H</div><div id="i" value="I" onclick="guessLetter()">I</div><div id="j" value="J" onclick="guessLetter()">J</div><div id="k" value="K" onclick="guessLetter()">K</div><div id="l" value="L" onclick="guessLetter()">L</div><div id="m" value="M" onclick="guessLetter()">M</div><div id="n" value="N" onclick="guessLetter()">N</div><div id="o" value="O" onclick="guessLetter()">O</div><div id="p" value="P" onclick="guessLetter()">P</div><div id="q" value="Q" onclick="guessLetter()">Q</div><div id="r" value="R" onclick="guessLetter()">R</div><div id="s" value="S" onclick="guessLetter()">S</div><div id="t" value="T" onclick="guessLetter()">T</div><div id="u" value="U" onclick="guessLetter()">U</div><div id="v" value="V" onclick="guessLetter()">V</div><div id="w" value="W" onclick="guessLetter()">W</div><div id="x" value="X" onclick="guessLetter()">X</div><div id="y" value="Y" onclick="guessLetter()">Y</div><div id="z" value="Z" onclick="guessLetter()">Z</div><div  id="glenn" value="$" onclick="guessLetter()"><img  src="IMG/glenn.jpg" alt=""></div>
+
+        </div>
+
+        <div id="pic">
+        <img  src="IMG/good.gif" alt="">
+        </div>
+        <div class="blood" id="again" onClick="reset()">Play Again!</div>
+        <div id="movie">
+              <video width="320" height="240"  autoplay loop controls>
+                <source src="IMG/iCloud4G.mov" type="video/mp4">
+                <source src="IMG/movie.ogg" type="video/ogg">
+
+              </video>
+        </div>
+
+
+
 </body>
 </html>

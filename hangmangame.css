@@ -1,11 +1,14 @@
 
 body{
-    background-image: url("Steel-Diamond-Plate-Texture.jpg");
+    background-image: url("IMG/Steel-Diamond-Plate-Texture.jpg");
     display: block;
     background-size:contain;
+    cursor: url("IMG/Lucy.jpg"), auto;
 }
 h1.blood{
   color: yellow;
+  -webkit-text-stroke: 2px black;
+
 }
 header{
   text-align: center;
@@ -18,10 +21,12 @@ h3{
   font-size: 39px;
   text-align: center;
   line-height: 70px;
+  -webkit-text-stroke: 2px black;
 }
 
 p.blood{
   color: #B72A2A;
+-webkit-text-stroke: 2px black;
 
 
 
@@ -31,12 +36,13 @@ p.blood{
 h2.blood{
   text-align: center;
   font-size: 44px;
+  -webkit-text-stroke: 2px black;
 }
 p{
   text-align: center;
   font-family: monospace;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 37px;
 }
 textarea {
   outline-color: yellow;
@@ -64,8 +70,17 @@ textarea {
     color: yellow;
     background-color: black;
     border-radius: 200px;
-    cursor: pointer;
+    cursor: crosshair;
     margin: 15px auto;
+
+
+
+}
+
+#submit.blood:hover{
+  background-color: red;
+
+
 
 
 
@@ -86,18 +101,21 @@ outline-style: groove;
 
 }
   #hangman{
-         display: block;
+         display: inline-block;
          margin: 50px auto 0 auto;
          border: 15px solid black;
+         position: relative;
+         top: -50px;
 
 
      }
 
-     #wordWrap{
+     #wordWrap {
          display: inline-block;
          width: 830px;
          margin: 0 auto;
          padding: 20px;
+         text-align: center;
 
 }
 
@@ -162,7 +180,27 @@ outline-style: groove;
         width: 845px;
     }
 
+    #again div:hover{
+        background-color: red;
+      }
 
+
+    #again {
+
+
+
+           width: 30%;
+           height: 60px;
+           margin: 0px auto 20px auto;
+           font-size: 30px;
+           line-height: 65px;
+           text-align: center;
+           color: red;
+           background-color: black;
+           border-radius: 25px;
+           cursor: crosshair;
+
+         }
 
         #characterCount{
             width: 580px;
@@ -231,9 +269,12 @@ outline-style: groove;
 
     }
 
- #pic{
-  position: relative;
+#pic img{
+
   text-align: center;
+  display: block;
+  margin: auto;
+
 }
 
 #Rick img{
@@ -245,20 +286,44 @@ outline-style: groove;
   position: relative;
 }
 #negan img{
-position: relative;
-left: 790px;
-width: 500px;
-top: -851px;
+display: inline-block;
+max-width: 500px;
 height: 330px;
+width: 400px;
+top: -100px;
+
 }
 #smile img{
-position: relative;
 
- height: 330px;
-  left: -9px;
-  width: 500px;
-
-  top: -1185px;
+max-width: 500px;
+height: 330px;
+width: 400px;
+top: -100px;
+left: 100px;
 
 }
-      }
+#inline{
+  display: inline-flex;
+  text-align: center;
+position: relative;
+  right: -65px;
+}
+
+#glenn img {
+  max-width: 500px;
+  height: 58px;
+  width: 47px;
+
+}
+.custom {
+   cursor: url(http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/rSoAAOSwkl5XdJ-j/$_57.JPG?set_id=8800005007), auto;
+ }
+
+ #movie video {
+   text-align: center;
+   display: block;
+   position: relative;
+   margin: auto;
+  bottom: 48px;
+
+ }

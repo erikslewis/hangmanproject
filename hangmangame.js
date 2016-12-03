@@ -1,3 +1,4 @@
+
 var rand = 0;
 var word = "";
 var numWrong = 0;
@@ -296,13 +297,12 @@ function win(){
     var again = document.getElementById('again');
     var results = document.getElementById('results');
         results.style.visibility = "visible";
-        results.style.color = "red";
+        results.className += "blood";
     if(numWrong > 6){
-        results.innerHTML = "YOU ARE IT";
+        results.innerHTML = "YOU ARE IT!!!";
         document.getElementById('letterBank').style.display = "none";
         again.style.display = "block";
-        document.getElementById('home').style.display = "block";
-        document.getElementById('vidSent').style.display = "block";
+
         if(ul1 == 50){
             results.style.lineHeight = "70px";
             results.style.fontSize = "30px";
@@ -317,7 +317,7 @@ function win(){
         }
     }
     else{
-        results.innerHTML = "You win!";
+        results.innerHTML = "You Survived!";
         document.getElementById('letterBank').style.display = "none";
 
         if(ul1 == 50){
@@ -802,7 +802,9 @@ function hang(){
             ctx.lineTo(97,240);
             ctx.stroke();
     }
+
 }
+
 
 function reset(){
     var ul1 = document.getElementById('underline1').offsetWidth;
@@ -830,8 +832,5 @@ function reset(){
 
     for(b = 0; b < 26; b++){
         bank[b].style.visibility = "visible";
-
-    }
-
-
+      }
 }
