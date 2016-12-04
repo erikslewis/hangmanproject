@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Online Hangman</title>
+    <title>Negan's Hangman</title>
     <link rel="stylesheet" type="text/css" href="hangmangame.css" />
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
     <script src="https://code.jquery.com/jquery-2.2.4.js" ></script>
     <script type="text/javascript" src="hangmangame.js"></script>
     <script>window.onload = draw;</script>
@@ -358,7 +358,7 @@
         <img  src="IMG/negan.gif" alt="">
 
             </div>
-            
+
           </div>
         <div id="results"></div>
         <div class="blood" id="letterBank">
@@ -371,11 +371,15 @@
         </div>
         <div class="blood" id="again" onClick="reset()">Play Again!</div>
         <div id="movie">
-              <video width="320" height="240"  autoplay loop controls>
-                <source src="IMG/iCloud4G.mov" type="video/mp4">
+              <video width="380" height="240"  autoplay loop controls>
+                <source src="IMG/IMG_3987.MOV.m4v" type="video/mp4">
                 <source src="IMG/movie.ogg" type="video/ogg">
 
               </video>
+</div>
+<div id="tag">
+ <img src="IMG/PIC.jpg" alt="">
+
         </div>
 
 

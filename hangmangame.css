@@ -97,6 +97,8 @@ textarea {
     cursor: pointer;
     background-color: black;
 outline-style: groove;
+position: relative;
+top:-68px;
 
 
 }
@@ -197,7 +199,7 @@ outline-style: groove;
            text-align: center;
            color: red;
            background-color: black;
-           border-radius: 25px;
+           border-radius: 0px;
            cursor: crosshair;
 
          }
@@ -279,7 +281,7 @@ outline-style: groove;
 
 #Rick img{
   max-width: 500px;
-  height: 185px;
+  height: 189px;
   text-align: center;
   display: block;
   margin: 50px auto 0 auto;
@@ -324,6 +326,15 @@ position: relative;
    display: block;
    position: relative;
    margin: auto;
-  bottom: 48px;
+  bottom: 40px;
 
+ }
+ #tag img {
+   max-width: 500px;
+   height: 120px;
+   text-align: center;
+   margin: 0 auto;
+   display: block;
+
+   width: 180px;
  }
