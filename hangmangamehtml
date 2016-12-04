@@ -14,15 +14,15 @@
 
 <body>
 
-            <header>
-              <h1 class="blood">Welcome To Negan's HangMan!</h1>
-            </header>
-            <p class="blood"> Multiplayer HangMan Game!</p>
+          
 
 
 
         <div id="wordInput">
             <div  id="multiText">
+              <h1 class="blood">Welcome To Negan's HangMan!</h1>
+
+            <p class="blood"> Multiplayer HangMan Game!</p>
               <h2 class="blood">Lucille's Instructions</h2>
               <div id="Rick">
               <img  src= "IMG/you.gif"alt="">
@@ -369,7 +369,7 @@
         <div id="pic">
         <img  src="IMG/good.gif" alt="">
         </div>
-        <div class="blood" id="again" onClick="reset()">Play Again!</div>
+        <button class="blood" id="again"  onclick="location.reload()">PLAY AGAIN</button>
         <div id="movie">
               <video width="380" height="240"  autoplay loop controls>
                 <source src="IMG/IMG_3987.MOV.m4v" type="video/mp4">
