@@ -14,11 +14,7 @@
 
 <body>
 
-          
-
-
-
-        <div id="wordInput">
+          <div id="wordInput">
             <div  id="multiText">
               <h1 class="blood">Welcome To Negan's HangMan!</h1>
 
@@ -381,8 +377,6 @@
  <img src="IMG/PIC.jpg" alt="">
 
         </div>
-
-
 
 </body>
 </html>

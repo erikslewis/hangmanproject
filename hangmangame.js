@@ -1,20 +1,17 @@
 
-var rand = 0;
-var word = "";
-var numWrong = 0;
-var numRight = 0;
-var phraseLength = 0;
-var numChar = 0;
-
-
-
+let rand = 0;
+let word = "";
+let numWrong = 0;
+let numRight = 0;
+let phraseLength = 0;
+let numChar = 0;
 
 function challengeGuess(){
-    var target = event.target || event.srcElement;
+    let target = event.target || event.srcElement;
     target.style.visibility = "hidden";
-    var lower = target.id;
-    var upper = document.getElementById(lower).getAttribute('value');
-    var results = document.getElementById('results');
+    let lower = target.id;
+    let upper = document.getElementById(lower).getAttribute('value');
+    let results = document.getElementById('results');
     if(document.getElementById('letter1').innerHTML === upper){
         document.getElementById('letter1').style.visibility = "visible";
         numRight++;
@@ -45,9 +42,8 @@ function challengeGuess(){
             results.style.lineHeight = "75px";
         }
         document.getElementById('challengeBank').style.display = "none";
-        document.getElementById('vidSent').style.display = "block";
         document.getElementById('again').style.display = "block";
-        document.getElementById('home').style.display = "block";
+
     }
     if(numWrong==25){
         results.style.visibility = "visible";
@@ -90,22 +86,22 @@ function readText(){
 }
 
 function hangman(){
-    var x = word.length;
+    let x = word.length;
         if(x==0){
-            alert("Please enter something into the text box.");
+            alert("You forgot to enter words into the text box.");
             return;
         }
-    var y = x-1;
-    var spaces = 0;
-    var validChar = new Array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", " ", "?", "!", ",", ".", "-", "'");
+    let y = x-1;
+    let spaces = 0;
+    let validChar = new Array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", " ", "?", "!", ",", ".", "-", "'");
     for(z = 0; z < word.length; z++){
-        var letter = word.substring(y,x);
+        let letter = word.substring(y,x);
         if(validChar.indexOf(letter) > -1){
             x--;
             y--;
         }
         else{
-            alert("Please remove any special characters.");
+            alert("Please remove all special characters.");
             return;
         }
     }
@@ -113,7 +109,7 @@ function hangman(){
     y = x-1;
     while (x>0){
         numChar++;
-        var letter = word.substring(y,x);
+        let letter = word.substring(y,x);
         if(letter === " "){
             document.getElementById('letter'+x).innerHTML = "&nbsp;";
             document.getElementById('letter'+x).style.visibility = "hidden";
@@ -138,15 +134,14 @@ function hangman(){
     }
     phraseLength = word.length - spaces;
 
-
-    splitWords();
+splitWords();
 
     draw();
 }
 
 function draw(){
-    var ctx = document.getElementById("hangman").getContext('2d');
-        ctx.fillStyle = "white";
+    let ctx = document.getElementById("hangman").getContext('2d');
+        ctx.fillStyle = "red";
         ctx.lineWidth=3;
         ctx.fillRect(0, 0, 300, 300);
         ctx.beginPath(); //vertical bar
@@ -204,8 +199,8 @@ function draw(){
     }
 
 function splitWords(){
-    var placeKeep = 0;
-    var countBack = 16;
+    let placeKeep = 0;
+    let countBack = 16;
     if(numChar > 15){
         while(countBack > 1){
             if(document.getElementById('letter16').innerHTML == "&nbsp;"){
@@ -237,13 +232,13 @@ function splitWords(){
 }
 
 function guessLetter(){
-    var correct = 0;
-    var target = event.target || event.srcElement;
+    let correct = 0;
+    let target = event.target || event.srcElement;
     target.style.visibility = "hidden";
-    var lower = target.id;
-    var upper = document.getElementById(lower).getAttribute('value');
-    var results = document.getElementById('results');
-    var ul1 = document.getElementById('underline1').offsetWidth;
+    let lower = target.id;
+    let upper = document.getElementById(lower).getAttribute('value');
+    let results = document.getElementById('results');
+    let ul1 = document.getElementById('underline1').offsetWidth;
     for(a = 1; a < 101; a++){
         if(document.getElementById('letter'+a).innerHTML === upper || document.getElementById('letter'+a).innerHTML === lower){
             document.getElementById('letter'+a).style.visibility = "visible";
@@ -273,7 +268,7 @@ function guessLetter(){
         }
     }
     if(numWrong==7){
-        results.innerHTML = "You lose!<br>Keep guessing until you get it right.";
+        results.innerHTML = "You lose!<br>Keep guessing.";
         document.getElementById('again').style.display = "block";
         document.getElementById('home').style.display = "block";
         document.getElementById('vidSent').style.display = "block";
@@ -293,9 +288,9 @@ function guessLetter(){
 }
 
 function win(){
-    var ul1 = document.getElementById('underline1').offsetWidth;
-    var again = document.getElementById('again');
-    var results = document.getElementById('results');
+    let ul1 = document.getElementById('underline1').offsetWidth;
+    let again = document.getElementById('again');
+    let results = document.getElementById('results');
         results.style.visibility = "visible";
         results.className += "blood";
     if(numWrong > 6){
@@ -339,7 +334,7 @@ function win(){
 }
 
 function hang(){
-    var ctx = document.getElementById("hangman").getContext('2d');
+    let ctx = document.getElementById("hangman").getContext('2d');
     if(numWrong==1){
         ctx.beginPath(); //head
             ctx.arc(150, 100, 20, 0, 2*Math.PI);
@@ -361,7 +356,7 @@ function hang(){
             ctx.stroke();
     }
     if(numWrong==3){
-        ctx.fillStyle = "white";
+        ctx.fillStyle = "red";
         ctx.fillRect(138, 102, 24, 12); //cover mouth
         ctx.beginPath(); //straight mouth
             ctx.moveTo(140,108);
@@ -804,8 +799,6 @@ function hang(){
     }
 
 }
-
-
 function reset(){
     var ul1 = document.getElementById('underline1').offsetWidth;
     var results = document.getElementById('results');
