@@ -75,14 +75,10 @@ textarea {
     border-radius: 200px;
     cursor: crosshair;
     margin: 15px auto;
-
 }
-
 #submit.blood:hover{
   background-color: red;
-
 }
-
 #letterBank div:hover{
     background-color: red;
 }
@@ -96,8 +92,6 @@ textarea {
 outline-style: groove;
 position: relative;
 top:-68px;
-
-
 }
   #hangman{
          display: inline-block;
@@ -106,9 +100,7 @@ top:-68px;
          position: relative;
          top: -50px;
 
-
      }
-
      #wordWrap {
          display: inline-block;
          width: 830px;
@@ -129,7 +121,6 @@ top:-68px;
              -moz-user-select: none;
              -ms-user-select: none;
 
-
 }
                #restriction {
                    display: block;
@@ -138,7 +129,6 @@ top:-68px;
                    font-size: 15px;
                    color: yellow;
                    text-align: center;
-
 }
 
 #submit{
@@ -146,7 +136,6 @@ top:-68px;
     width: 179px;
     height: 30px;
     line-height: 30px;
-
 
 }
 
@@ -159,13 +148,10 @@ top:-68px;
     font-size: 37px;
 
 }
-
 #gamePage{
     display: none;
     text-align: center;
-
     }
-
     #multiPage{
         display: none;
         height: 490px;

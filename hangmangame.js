@@ -1,12 +1,12 @@
 
-let rand = 0;
+
 let word = "";
 let numWrong = 0;
 let numRight = 0;
 let phraseLength = 0;
 let numChar = 0;
 
-function challengeGuess(){
+function Guess(){
     let target = event.target || event.srcElement;
     target.style.visibility = "hidden";
     let lower = target.id;
@@ -41,7 +41,7 @@ function challengeGuess(){
             results.style.height = "75px";
             results.style.lineHeight = "75px";
         }
-        document.getElementById('challengeBank').style.display = "none";
+
         document.getElementById('again').style.display = "block";
 
     }
@@ -66,16 +66,16 @@ function challengeGuess(){
             results.style.height = "75px";
             results.style.lineHeight = "75px";
         }
-        document.getElementById('challengeBank').style.display = "none";
-        document.getElementById('vidSent').style.display = "block";
+
+
         document.getElementById('again').style.display = "block";
-        document.getElementById('home').style.display = "block";
+
         document.getElementById('letter1').style.visibility = "visible";
     }
 }
 
 function countChars(countfrom,displayto) {
-    var len = document.getElementById(countfrom).value.length;
+    let len = document.getElementById(countfrom).value.length;
     document.getElementById(displayto).innerHTML = len;
 }
 
@@ -270,8 +270,7 @@ function guessLetter(){
     if(numWrong==7){
         results.innerHTML = "You lose!<br>Keep guessing.";
         document.getElementById('again').style.display = "block";
-        document.getElementById('home').style.display = "block";
-        document.getElementById('vidSent').style.display = "block";
+
         if(ul1 == 50){
             results.style.lineHeight = "40px";
         }
@@ -800,8 +799,8 @@ function hang(){
 
 }
 function reset(){
-    var ul1 = document.getElementById('underline1').offsetWidth;
-    var results = document.getElementById('results');
+    let ul1 = document.getElementById('underline1').offsetWidth;
+    let results = document.getElementById('results');
 
     for(a = 1; a < 101; a++){
         document.getElementById('letter'+a).innerHTML = "&nbsp;";
@@ -821,7 +820,7 @@ function reset(){
         document.getElementById('underline'+a).style.display = "none";
         document.getElementById('underline'+a).style.borderBottom = "0px";
     }
-    var bank = document.getElementById("letterBank").querySelectorAll("div");
+    let bank = document.getElementById("letterBank").querySelectorAll("div");
 
     for(b = 0; b < 26; b++){
         bank[b].style.visibility = "visible";
