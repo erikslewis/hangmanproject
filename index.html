@@ -2,8 +2,9 @@
 <html lang="">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=470, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Negan's Hangman</title>
     <link rel="stylesheet" type="text/css" href="hangmangame.css" />
 
@@ -16,19 +17,20 @@
 
           <div id="wordInput">
             <div  id="multiText">
-              <h1 class="blood">Welcome To Negan's HangMan!</h1>
+              <h2 class="blood">Welcome To Negan's HangMan!</h2>
 
-            <p class="blood"> Multiplayer HangMan Game!</p>
+            <p class="blood"> Multiplayer Game!</p>
+            <div id="Rick">
+            <img  src= "IMG/you.gif"alt="">
+
+            </div>
               <h2 class="blood">Lucille's Instructions</h2>
-              <div id="Rick">
-              <img  src= "IMG/you.gif"alt="">
 
-              </div>
                 <p class="blood">Player One Look Away While Player Two Types.</p>
                 <h3 class="blood">Player Two Write A Word Or Words Then Click Lucille Is Thirsty!</h3>
 
             <div id="inputContainer">
-                <textarea  id="input" placeholder="WRITE YOUR TEXT HERE!!!" cols="40" rows="5" onkeyup = "countChars('input','charcount');" onkeydown = "countChars('input','charcount');" onmouseout = "countChars('input','charcount');"></textarea>
+                <textarea  id="input" placeholder="WRITE YOUR TEXT HERE!!!" cols="38" rows="5" onkeyup = "countChars('input','charcount');" onkeydown = "countChars('input','charcount');" onmouseout = "countChars('input','charcount');"></textarea>
 
 
 
@@ -37,7 +39,7 @@
             <div id="characterCount">
                 <p class="blood" id="charContain">
                     <span id="charcount">0</span>/100 characters
-                </p>
+                </p><br>
                 <div  class="blood" id="submit" onclick="readText()" >Lucille Is Thirsty</div>
 </div>
 </div>
@@ -349,11 +351,8 @@
           <div id="smile">
           <img  src="IMG/smile.gif" alt="">
           </div>
-        <canvas id="hangman"   width= "300px"; height= "300px";></canvas>
-        <div id="negan">
-        <img  src="IMG/negan.gif" alt="">
+        <canvas id="hangman"   width= "190px"; height= "210px";></canvas>
 
-            </div>
 
           </div>
         <div id="results"></div>
