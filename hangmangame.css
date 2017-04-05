@@ -289,16 +289,17 @@ height: 234px;
 width: 320px;
 top: -100px;
 margin-left: -50%;
-border-color: black;
-border-style: outset;
+border-color: red;
+border-style: double;
 
 }
 #smile img{
 height: 234px;
 width: 400px;
 margin-left: 10%;
-border-color: black;
-border-style: outset;
+border-color: red;
+border-style: double;
+
 }
 
 @media (max-width: 600px) {
