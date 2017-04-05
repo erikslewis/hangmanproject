@@ -1,8 +1,11 @@
 
 body{
-    background-image: url("IMG/Steel-Diamond-Plate-Texture.jpg");
+    background-image: url("IMG/the-walking-dead-saison-7-personnage-negan.jpg");
     display: block;
-    background-size:contain;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+
     cursor: url("IMG/Lucy.jpg"), auto;
 }
 h1.blood{
@@ -42,10 +45,10 @@ h2.blood{
   -webkit-text-stroke: 1.5px black ;
 font-family: sans-serif;
 font-weight: bolder;
-  background-color: black;
+
 }
 div.black{
-  background-color: black;
+
 }
 p{
   text-align: center;
