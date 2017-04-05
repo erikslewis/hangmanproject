@@ -299,15 +299,15 @@ function win(){
 
         if(ul1 == 50){
             results.style.lineHeight = "70px";
-            results.style.fontSize = "200px";
+            results.style.fontSize = "120px";
         }
         if(ul1 == 28){
             results.style.lineHeight = "50px";
-            results.style.fontSize = "200px";
+            results.style.fontSize = "120px";
         }
         if(ul1 == 18){
             results.style.lineHeight = "40px";
-            results.style.fontSize = "200px";
+            results.style.fontSize = "120px";
         }
     }
     else{
@@ -316,18 +316,19 @@ function win(){
 
         if(ul1 == 50){
 
-            results.style.marginTop = "75px";
-            results.style.fontSize = "200px";
+            results.style.marginTop = "50px";
+            results.style.textAlign = "center";
+            results.style.fontSize = "150px";
         }
         if(ul1 == 28){
             again.style.marginTop = "50px";
             results.style.marginTop = "40px";
-            results.style.fontSize = "200px";
+            results.style.fontSize = "150px";
         }
         if(ul1 == 18){
             again.style.marginTop = "40px";
             results.style.marginTop = "15px";
-            results.style.fontSize = "200px";
+            results.style.fontSize = "150px";
         }
     }
 }
