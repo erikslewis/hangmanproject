@@ -137,7 +137,7 @@ top:-68px;
   #letterBank{
              width: 440px;
              height: 125px;
-             margin: 20px auto;
+             margin-left: 290px;
              font-size: 50px;
              line-height: 60px;
              text-align: center;
@@ -265,6 +265,7 @@ top:-68px;
         width: 50px;
         height: 60px;
         margin-right: 5px;
+
 
     }
 
