@@ -74,6 +74,7 @@ textarea {
     font-size: 25.5px;
     margin-left: 200px;
     line-height: 20px;
+    float: right;
 }
 #submit.blood:hover{
   background-color: red;
