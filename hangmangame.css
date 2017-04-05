@@ -3,7 +3,7 @@ body{
     background-image: url("IMG/the-walking-dead-saison-7-personnage-negan.jpg");
 
     background-size:cover;
-    background-position: ;
+    background-position:auto ;
     background-attachment:fixed;
 
     background-size: 100%;
@@ -293,7 +293,7 @@ top:-68px;
 display: inline-block;
 max-width: 500px;
 height: 234px;
-width: 320px;
+width: 300px;
 top: -100px;
 margin-left: -50%;
 border-color: red;
