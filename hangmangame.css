@@ -98,6 +98,7 @@ top:-68px;
          border: 15px solid black;
          position: relative;
          top: -50px;
+         margin-left: 30%;
 
      }
      #wordWrap {
@@ -255,18 +256,17 @@ top: -100px;
 
 }
 #smile img{
-
-
 height: 240px;
-width: 230px;
-
-
+width: 280px;
+margin-left: 80%;
 }
+
+@media (max-width: 600px) {
+}
+
 #inline{
   display: inline-flex;
-
 position: relative;
-
 }
 
 #glenn img {
