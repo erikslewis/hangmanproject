@@ -8,14 +8,15 @@
     <link rel="stylesheet" type="text/css" href="hangmangame.css" />
 
     <script src="https://code.jquery.com/jquery-2.2.4.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script type="text/javascript" src="hangmangame.js"></script>
     <script>window.onload = draw;</script>
 </head>
 
 <body>
-
+<div class="animated zoomInDown">
           <div id="wordInput">
-            <div  id="multiText">
+            <div   id="multiText">
             <div class="black">
               <h2 class="blood">Welcome To Negan's HangMan!</h2>
 
@@ -41,12 +42,15 @@
             <br>
             <div id="characterCount">
                 <p class="blood" id="charContain">
-                    <span id="charcount">0</span>/100 characters
+                    <span id="charcount">0</span>/100 Characters
                 </p>
                 <br>
                   <br>
                     <br>
+                    <div class="animated infinite pulse">
                 <div  class="blood" id="submit" onclick="readText()" >Lucille Is Thirsty</div>
+              </div>
+            </div>
 
 
 </div>
@@ -374,7 +378,8 @@
 
 
         </div>
-  <button class="blood" id="again"  onclick="location.reload()">PLAY AGAIN</button>
+        <div class="animated  pulse">
+  <button class="blood" id="again"  onclick="location.reload()">PLAY AGAIN</button></div>
         <div id="pic">
         <img  src="IMG/good.gif" alt="">
         </div>
@@ -393,3 +398,4 @@
 
 </body>
 </html>
+</div>
