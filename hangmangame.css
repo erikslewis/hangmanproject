@@ -44,6 +44,9 @@ font-family: sans-serif;
 font-weight: bolder;
   background-color: black;
 }
+div.black{
+  background-color: black;
+}
 p{
   text-align: center;
   font-family: monospace;
