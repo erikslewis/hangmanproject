@@ -126,12 +126,10 @@ top:-68px;
      #wordWrap {
         position: relative;
          width: 830px;
-
          padding: 20px;
          text-align: center;
          display: inline-block;
-         margin: 0 auto;
-
+         margin: 10px 100px;
 }
 
   #letterBank{
@@ -180,8 +178,6 @@ top:-68px;
       }
 
     #again {
-
-
            height: 60px;
            margin: 0px auto 20px auto;
            font-size: 48px;
@@ -189,9 +185,6 @@ top:-68px;
            text-align: center;
            color: yellow;
            background-color: black;
-           border-radius: 0px;
-           cursor: crosshair;
-           text-align: center;
            position: relative;
            display: block;
            top: 5px;
@@ -266,7 +259,6 @@ top:-68px;
         height: 60px;
         margin-right: 5px;
 
-
     }
 
 #pic img{
@@ -289,6 +281,7 @@ top:-68px;
   position: relative;
   border-color: red;
   border-style: outset;
+
 }
 #negan img{
 display: inline-block;
