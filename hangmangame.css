@@ -173,10 +173,10 @@ top:-68px;
 
     #again {
 
-           width: 30%;
+
            height: 60px;
            margin: 0px auto 20px auto;
-           font-size: 30px;
+           font-size: 48px;
            line-height: 65px;
            text-align: center;
            color: yellow;
@@ -187,8 +187,8 @@ top:-68px;
            position: relative;
            display: block;
            top: 5px;
-           height: 65px;
-           width: 381px;
+           height: 90px;
+           width: 440px;
            line-height: 10px;
            border-radius: 80px;
            padding-left: 20px;
