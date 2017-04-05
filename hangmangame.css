@@ -232,12 +232,11 @@ top:-68px;
 
 #pic img{
   width: 450px;
-  text-align: center;
   display: block;
-  margin: auto;
+  margin: 50px auto 0 auto;
+  position: relative;
 
 }
-
 
 #Rick img{
   max-width: 500px;
