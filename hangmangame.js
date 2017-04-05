@@ -101,7 +101,7 @@ function hangman(){
             y--;
         }
         else{
-            alert("Please remove all special characters.");
+            alert("Please remove all special characters, Then Click Lucille Is Thirsty!.");
             return;
         }
     }
@@ -299,15 +299,15 @@ function win(){
 
         if(ul1 == 50){
             results.style.lineHeight = "70px";
-            results.style.fontSize = "30px";
+            results.style.fontSize = "200px";
         }
         if(ul1 == 28){
             results.style.lineHeight = "50px";
-            results.style.fontSize = "25px";
+            results.style.fontSize = "200px";
         }
         if(ul1 == 18){
             results.style.lineHeight = "40px";
-            results.style.fontSize = "20px";
+            results.style.fontSize = "200px";
         }
     }
     else{
@@ -322,12 +322,12 @@ function win(){
         if(ul1 == 28){
             again.style.marginTop = "50px";
             results.style.marginTop = "40px";
-            results.style.fontSize = "100px";
+            results.style.fontSize = "200px";
         }
         if(ul1 == 18){
             again.style.marginTop = "40px";
             results.style.marginTop = "15px";
-            results.style.fontSize = "75px";
+            results.style.fontSize = "200px";
         }
     }
 }
