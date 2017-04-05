@@ -265,6 +265,8 @@ top:-68px;
   display: block;
   margin: 50px auto 0 auto;
   position: relative;
+  border-color: red;
+  border-style: outset;
 
 }
 
