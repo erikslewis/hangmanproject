@@ -256,14 +256,17 @@ function guessLetter(){
         results.innerHTML = "You can't miss another letter!";
         if(ul1 == 50){
             results.style.lineHeight = "170px";
+            results.style.textAlign = "center";
             results.style.fontSize = "80px";
         }
         if(ul1 == 28){
             results.style.lineHeight = "170px";
+            results.style.textAlign = "center";
             results.style.fontSize = "80px";
         }
         if(ul1 == 18){
             results.style.lineHeight = "170px";
+            results.style.textAlign = "center";
             results.style.fontSize = "80px";
         }
     }
@@ -273,14 +276,17 @@ function guessLetter(){
 
         if(ul1 == 50){
             results.style.lineHeight = "40px";
+            results.style.textAlign = "center";
             results.style.fontSize = "80px";
         }
         if(ul1 == 28){
             results.style.lineHeight = "50px";
+            results.style.textAlign = "center";
             results.style.fontSize = "80px";
         }
         if(ul1 == 18){
             results.style.lineHeight = "40px";
+            results.style.textAlign = "center";
             results.style.fontSize = "80px";
         }
     }
