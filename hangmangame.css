@@ -183,6 +183,21 @@ top:-68px;
            background-color: black;
            border-radius: 0px;
            cursor: crosshair;
+           text-align: center;
+           position: relative;
+           display: block;
+           top: 5px;
+           height: 65px;
+           width: 381px;
+           outline-style:ridge;
+           line-height: 10px;
+           border-radius: 80px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border-width: 12px;
+           border-style: solid;
+           border-style: outset;
+           border-color: red;
 
          }
 
@@ -309,18 +324,9 @@ position: relative;
 
    width: 180px;
  }
- #again.blood{
 
-   text-align: center;
-   position: relative;
-   display: block;
-   top: 5px;
-   height: 65px;
-   width: 381px;
-   outline-style:ridge;
-   outline-color: yellow;
 
- }
+
 #again.blood:hover{
   background-color: red;
 }
