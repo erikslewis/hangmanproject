@@ -54,7 +54,7 @@ p{
   font-size: 37px;
 }
 textarea {
-  outline-color: yellow;
+  outline-color: red;
   outline-style: double;
 }
 
