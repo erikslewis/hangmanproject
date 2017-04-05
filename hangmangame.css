@@ -9,7 +9,7 @@ body{
     background-size: 100%;
 
 background-color: black;
-    cursor: url("IMG/Lucy.jpg"), auto;
+    
 }
 h1.blood{
   color: yellow;
@@ -23,8 +23,6 @@ h1.blood{
 }
 header{
   text-align: center;
-
-
   font-size: 30px;
   font-weight: bolder;
 
@@ -93,7 +91,6 @@ textarea {
     border-style: solid;
     border-style: outset;
     border-color: red;
-
     background-color: black;
 }
 #submit.blood:hover{
