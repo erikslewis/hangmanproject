@@ -13,6 +13,7 @@ h1.blood{
   font-size: 30px;
   text-align: center;
 
+
 }
 header{
   text-align: center;
@@ -41,6 +42,7 @@ h2.blood{
   -webkit-text-stroke: 1.5px black ;
 font-family: sans-serif;
 font-weight: bolder;
+  background-color: black;
 }
 p{
   text-align: center;
