@@ -56,7 +56,7 @@ p{
 textarea {
   outline-color: red;
   outline-style: double;
-  border-width: thick;
+  border-width: 10px;
 }
 
 #input{
