@@ -27,6 +27,11 @@ header{
   font-weight: bolder;
 
 }
+.animated.fadeIn{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: ;
+}
 h3{
   font-size: 39px;
   text-align: center;
