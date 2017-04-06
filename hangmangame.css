@@ -29,7 +29,12 @@ header{
 }
 .animated.fadeIn{
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: ;
+}
+.animated.rollIn{
+  -webkit-animation-duration: 1.6s;
+  -webkit-animation-delay: .4s;
   -webkit-animation-iteration-count: ;
 }
 h3{
