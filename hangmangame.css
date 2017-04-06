@@ -107,6 +107,7 @@ textarea {
     cursor: pointer;
     background-color: black;
 outline-style: groove;
+outline-width: 8px;
 position: relative;
 top:-68px;
 }
